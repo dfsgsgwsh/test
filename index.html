@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/index.css"/>
+    <title>优酷</title>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/index.js"></script>
+</head>
+<body>
+<!--页面头部 包括轮播图-->
+  <header>
+    <div class="logo fl">
+    <img src="images/logo.png" alt=""/>
+  </div>
+    <div class="search fl">
+      <input type="search" class="fl"/><button>搜全网</button>
+    </div>
+    <div class="focus_nav fr">
+      <div class="usercenter">
+         <a href="javascript:;" class="user_logo"></a>
+        <div class="user">
+          <span>登录使用更多功能</span>
+          <a href="javascript:;">登录/注册</a>
+          <div class="triangle"></div>
+        </div>
+      </div>
+      <div class="focus_nav_inner">
+        <div class="current"><span class="sp" style="background-color: #fd537f;">1</span><h4>带着爸爸去留学</h4><p style="display: block">孙红雷英雄救美</p></div>
+        <div><span class="sp" style="background-color: #f2a20c;">2</span><h4>少年派</h4><p style="display: none">女儿吃二胎醋甩脸子气哭闫妮</p></div>
+        <div><span class="sp" style="background-color: #148aff;">3</span><h4>嘿！客栈</h4><p style="display: none">今日有房！五人团创业笑料不断</p></div>
+        <div><span class="sp">4</span><h4>这！就是街舞 第二季</h4><p style="display: none">韩庚又被抢人怒吃苹果核</p></div>
+        <div><span class="sp">5</span><h4>极挑 会员版</h4><p style="display: none">“舞王”小猪连续卡点失败</p></div>
+        <div><span class="sp">6</span><h4>圆桌派 第四季</h4><p style="display: none">奋斗和惜命的选择题答案是？</p></div>
+        <div><span class="sp">7</span><h4>罗马</h4><p style="display: none">奥斯卡三项大奖史诗神作</p></div>
+      </div>
+    </div>
+    <div class="banner">
+      <a href="javascript:;" style="background-image: url('images/banner1.jpg');display: block"></a>
+      <a href="javascript:;" style="background-image: url('images/banner2.jpg')"></a>
+      <a href="javascript:;" style="background-image: url('images/banner3.jpg')"></a>
+      <a href="javascript:;" style="background-image: url('images/banner4.jpg')"></a>
+      <a href="javascript:;" style="background-image: url('images/banner5.jpg')"></a>
+      <a href="javascript:;" style="background-image: url('images/banner6.jpg')"></a>
+      <a href="javascript:;" style="background-image: url('images/banner7.jpg')"></a>
+    </div>
+  </header>
+<!--视频分类部分-->
+  <nav class="inner">
+    <div class="nav_left fl">
+      <ul>
+        <li><a href="javascript:;"><img src="images/nav1.png" alt=""/>剧集</a></li>
+        <li><a href="javascript:;"><img src="images/nav2.png" alt=""/>电影</a></li>
+        <li><a href="javascript:;"><img src="images/nav3.png" alt=""/>少儿</a></li>
+        <li><a href="javascript:;"><img src="images/nav4.png" alt=""/>综艺</a></li>
+        <li><a href="javascript:;"><img src="images/nav5.png" alt=""/>动漫</a></li>
+        <li><a href="javascript:;"><img src="images/nav6.png" alt=""/>纪录片</a></li>
+      </ul>
+    </div>
+    <div class="nav_line fl"></div>
+    <div class="nav_mid fl">
+      <ul>
+        <li><a href="javascript:;">文化</a></li>
+        <li><a href="javascript:;">体育</a></li>
+        <li><a href="javascript:;">来疯</a></li>
+        <li><a href="javascript:;">时尚</a></li>
+        <li><a href="javascript:;">音乐</a></li>
+        <li><a href="javascript:;">旅游</a></li>
+        <li><a href="javascript:;">娱乐</a></li>
+        <li><a href="javascript:;">资讯</a></li>
+        <li><a href="javascript:;">公益</a></li>
+        <li><a href="javascript:;">财经</a></li>
+        <li><a href="javascript:;">教育</a></li>
+        <li><a href="javascript:;">游戏</a></li>
+        <li><a href="javascript:;">直播</a></li>
+        <li><a href="javascript:;">搞笑</a></li>
+        <li><a href="javascript:;">汽车</a></li>
+        <li><a href="javascript:;">亲子</a></li>
+        <li><a href="javascript:;">生活</a></li>
+        <li><a href="javascript:;">片库</a></li>
+        <li><a href="javascript:;">科技</a></li>
+        <li><a href="javascript:;">发现</a></li>
+      </ul>
+    </div>
+    <div class="nav_right fr">
+      <ul>
+        <li><a href="javascript:;"><img src="images/nav7.png" alt=""/><span class="sp1">我们的70年</span></a></li>
+        <li><a href="javascript:;"><img src="images/nav8.png" alt=""/><span>优酷片库</span></a></li>
+        <li><a href="javascript:;"><img src="images/nav9.png" alt=""/><span>下载中心</span></a></li>
+      </ul>
+    </div>
+  </nav>
+<!--热播视频部分-->
+  <div class="rebo inner">
+    <div class="rebo_hd inner">
+      <span class="fl">正在热播</span>
+      <a href="javascript:;">《庄子》：通往想象的世界</a>
+      <a href="javascript:;" class="change fr"><img src="images/icon_rebo.png" alt=""/>换一换</a>
+    </div>
+    <div class="rebo_bd">
+      <div><span class="rebo_topright">热门</span><span class="rebo_botright">更新至26集</span><a href="javascript:;" class="rebo_pic pic"><img src="images/rebo1.jpg" alt=""/></a><a href="javascript:;">猪猪侠·恐龙日记</a><p>猪猪侠带你回恐龙时代</p></div>
+      <div><span class="rebo_topright">热门</span><span class="rebo_botright">10集全</span><a href="javascript:;" class="rebo_pic pic"><img src="images/rebo2.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="rebo_topright">热门</span><span class="rebo_botright" style="color: #ff5711;font-size: 14px;font-weight: 600">8.0</span><a href="javascript:;" class="rebo_pic pic"><img src="images/rebo3.jpg" alt=""/></a><a href="javascript:;">夏目友人帐·治愈系</a><p>人气漫画改编高分佳片</p></div>
+      <div><span class="rebo_topright">热门</span><span class="rebo_botright">07-02集</span><a href="javascript:;" class="rebo_pic pic"><img src="images/rebo4.jpg" alt=""/></a><a href="javascript:;">海昏遗梦·摸金校尉</a><p>汉代古墓的惊世秘密</p></div>
+      <div><span class="rebo_topright">热门</span><span class="rebo_botright">07-01集</span><a href="javascript:;" class="rebo_pic pic"><img src="images/rebo5.jpg" alt=""/></a><a href="javascript:;">圆桌派4·误解</a><p>周迅演技被质疑没内容？</p></div>
+      <div><span class="rebo_topright">热门</span><span class="rebo_botright">36集全</span><a href="javascript:;" class="rebo_pic pic"><img src="images/rebo6.jpg" alt=""/></a><a href="javascript:;">青囊传·会员大结局</a><p>甜！星尘云裳甜蜜拥吻</p></div>
+    </div>
+  </div>
+<!--剧集部分-->
+<div class="juji inner">
+  <div class="hd inner">
+    <a href="javascript:;" class="fl hd_title">剧集</a>
+    <div class="hd_nav fl">
+      <div class="active"><a href="javascript:;">最新</a></div>
+      <div><a href="javascript:;">大陆剧</a></div>
+      <div><a href="javascript:;">日韩剧</a></div>
+      <div><a href="javascript:;">港台剧</a></div>
+      <div><a href="javascript:;">英美剧</a></div>
+    </div>
+  </div>
+  <div class="juji_bd">
+    <div class="juji_bd_left fl">
+      <a href="javascript:;" class="juji_bd_left_pic"><img src="images/juji1.jpg" alt=""/></a>
+      <a href="javascript:;"> <带着爸爸去留学>孙红雷开启陪读路 </a>
+      <p>曾舜晞考学不顺，辛芷蕾“后妈难当”蒋依依超叛逆！</p>
+    </div>
+    <div class="juji_bd_right fr">
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji2.gif" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji3.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji4.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji5.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji6.png" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji7.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji8.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+      <div><span class="juji_bd_right_sp">10集全</span><a href="javascript:;" class="juji_bd_right_pic pic"><img src="images/juji9.jpg" alt=""/></a><a href="javascript:;">业务部长·为母则刚</a><p>家庭主妇霸气回归职场</p></div>
+    </div>
+  </div>
+</div>
+<!--电影部分-->
+<div class="movie inner">
+  <div class="hd inner">
+    <a href="javascript:;" class="fl hd_title">电影</a>
+    <div class="hd_nav fl">
+      <div class="active"><a href="javascript:;">热播</a></div>
+      <div><a href="javascript:;">免费</a></div>
+      <div><a href="javascript:;">好莱坞</a></div>
+      <div><a href="javascript:;">预告片</a></div>
+      <div><a href="javascript:;">网络电影</a></div>
+    </div>
+  </div>
+  <div class="movie_bd">
+    <div><span class="movie_bd_sptop">首播</span><span class="movie_bd_spbot">7.7</span><a href="javascript:;" class="movie_bd_pic pic"><img src="images/movie1.jpg" alt=""/></a><a href="javascript:;">登月第一人</a><p>奥斯卡最佳视效</p></div>
+    <div><span class="movie_bd_spbot">9.1</span><a href="javascript:;" class="movie_bd_pic pic"><img src="images/movie2.jpg" alt=""/></a><a href="javascript:;">头号玩家</a><p>科幻神片玩转VR</p></div>
+    <div><span class="movie_bd_sptop">独播</span><span class="movie_bd_spbot">7.3</span><a href="javascript:;" class="movie_bd_pic pic"><img src="images/movie3.jpg" alt=""/></a><a href="javascript:;">我的青春都是你</a><p>宋威龙演绎青春爱恋</p></div>
+    <div><span class="movie_bd_sptop">独播</span><span class="movie_bd_spbot">8.0</span><a href="javascript:;" class="movie_bd_pic pic"><img src="images/movie4.jpg" alt=""/></a><a href="javascript:;">小镇车神</a><p>五菱神车狂飙漂移</p></div>
+    <div><span class="movie_bd_sptop">独播</span><span class="movie_bd_spbot">8.0</span><a href="javascript:;" class="movie_bd_pic pic"><img src="images/movie5.jpg" alt=""/></a><a href="javascript:;">新河东狮吼</a><p>陈浩民经典重现再续传奇</p></div>
+    <div><span class="movie_bd_sptop">首播</span><span class="movie_bd_spbot">9.1</span><a href="javascript:;" class="movie_bd_pic pic"><img src="images/movie6.jpg" alt=""/></a><a href="javascript:;">一个母亲的复仇</a><p>以爱之名高能复仇</p></div>
+  </div>
+</div>
+  <!--滚动的搜索栏-->
+<div class="header2">
+  <div class="logo fl">
+    <img src="images/logo.png" alt=""/>
+  </div>
+  <div class="header2_nav fl">
+    <ul>
+      <li><a href="javascript:;">剧集</a></li>
+      <li><a href="javascript:;">电影</a></li>
+      <li><a href="javascript:;">综艺</a></li>
+      <li><a href="javascript:;"><span style="background-image:url(images/频道1.png);background-size: 100% 100%; width: 18px;height: 18px;display: inline-block;vertical-align: text-bottom"></span>频道</a></li>
+    </ul>
+  </div>
+  <div class="search fl">
+    <input type="search" class="fl"/><button>搜全网</button>
+  </div>
+  <div class="usercenter fr">
+
+    <a href="javascript:;" class="user_logo1"><span class="fl usercenter_sp">你好!请登录</span></a>
+    <div class="user1">
+      <span>登录使用更多功能</span>
+      <a href="javascript:;">登录/注册</a>
+      <div class="triangle"></div>
+    </div>
+  </div>
+</div>
+
+<div class="mask">
+  <div class="login">
+    <span>x</span>
+    <div class="login_inner fr">
+      <h4>账号登录 <a href="javascript:;">手机快捷登录></a></h4>
+      <div class="loginform">
+        <form action="" method="post">
+          <input type="text" placeholder="手机/邮箱/优酷土豆账号"/>
+          <input type="password" placeholder="登录密码"/>
+          <input type="checkbox" class="remenber"/>记住我
+          <a href="javascript:;" class="forget">忘记密码</a>
+          <a href="javascript:;" class="login_btn">登录</a>
+        </form>
+          <a href="javascript:;" class="register">注册</a>
+      </div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
